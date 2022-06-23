@@ -1,0 +1,6 @@
+/* li[class]{
+    color:Red;
+} */
+li[class~=a]{
+    color:Red;
+}

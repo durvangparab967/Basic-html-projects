@@ -1,0 +1,33 @@
+/* element selector */
+a.special{
+    color:red;
+    font-weight: 1000;
+    font-size: larger;
+}
+
+/* class selector */
+.special{
+    color:blue;
+    font-weight: 1000;
+    font-size: larger;
+}
+
+/* combination slector */
+ul li{
+    color:chartreuse;
+}
+
+/* adjacent selector */
+h1+p{
+    color:black;
+}
+
+/* pseudo state selector */
+a:hover{
+color:yellow;
+text-decoration: none;
+}
+/* a:visited{
+color:green;
+text-decoration: none;
+} */
