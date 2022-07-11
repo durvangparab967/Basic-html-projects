@@ -1,0 +1,13 @@
+/* element */
+p{
+    background-color: aqua;
+}
+/* class */
+.special{
+    font-style: italic;
+}
+/* id` */
+#one{
+    font-weight: 900;
+}
+
