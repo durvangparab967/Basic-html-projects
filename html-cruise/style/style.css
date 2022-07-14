@@ -22,6 +22,8 @@ header h2 {
 }
 header {
     padding: 1px;
+    color:aliceblue;
+    font-size: large;
     background-image: url(../images/title-background.jfif);
 }
 
@@ -36,6 +38,13 @@ nav a {
     text-align: center;
     float: left;
     color: white;
+}
+
+nav a:hover{
+    color:tomato;
+}
+nav a:visited{
+    color:royalblue;
 }
 
 main {
