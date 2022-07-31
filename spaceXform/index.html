@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>spaceX</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="header">
+            SpaceX
+            <h2 class = "header">
+                Get your name on starlink 
+            </h2 >
+        </h1>
+
+        <hr>
+        <fieldset>
+            <legend>
+                Personal Information
+            </legend>
+            <p>Name *: <input type="name" id="name" placeholder = "Enter your name"></p>
+            <hr>
+            <p>Gender</p>
+            <p>Male : <input type="radio"></p>
+            <p>Female : <input type="radio"></p>
+            <hr>
+            <p>Address *: <textarea name="Address" id="address" cols="100" rows="10"></textarea></p>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Payment Information
+            </legend>
+            <p>Card Details:</p>
+            <select>
+                <option value="cardType">---Select a card type---</option>
+                <option value="Visa">Visa</option>
+                <option value="Paytm">Paytm</option>
+                <option value="Gpay">Gpay</option>
+            </select>
+            <p>Expiration Date : <input type="date"></p>
+            <p>CVV : <input type="number"></p>
+        </fieldset>
+        <input type="submit" name="submit" id="submit" value ="Pay Now">
+
+
+    </div>
+  </body>
+</html>
