@@ -1,6 +1,8 @@
 let namasteBtn = document.querySelector('button');
-namasteBtn.addEventListener('click', showMsg);
+namasteBtn.addEventListener('click',inputMsg);
 
-function showMsg(){
-    alert("Namaste world!");
+function inputMsg()
+{
+    let name = prompt("Enter your name: ");
+    namasteBtn.textContent = "Welcome "+name;
 }
