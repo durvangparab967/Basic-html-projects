@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Dom manipulation</h1>
+    <button>Press here</button>
+    <script>
+        document.addEventListener("DOMContentLoaded",function(){
+        let btn = document.querySelector('button');
+        btn.addEventListener('click',inputMsg);
+        function inputMsg()
+        {
+            let name = prompt('Enter your name: ');
+            btn.textContent='Welcome '+name;
+        }
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+button{
+    background-color: yellow;
+    border-radius: 25px;
+    width: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: blue;
+}
+button:hover{
+    background-color: red;
+}
