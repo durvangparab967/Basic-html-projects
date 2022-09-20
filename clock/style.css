@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.parent {
+  height: 400px;
+  width: 400px;
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border:rgb(55, 255, 0) 10px solid
+}
+.parent h1 {
+  color: rgb(55, 255, 0);
+  font-size: 50px;
+}

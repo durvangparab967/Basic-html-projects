@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    color: rgb(63, 252, 63);
+}
+.parent{
+    width: 400px;
+    height: 400px;
+    background: rgb(22, 22, 22);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border:  rgb(63, 252, 63) 10px solid;
+}
+/* Creating the class for our animation. */
+.animate{
+    border:  rgb(245, 39, 32) 10px solid;
+}
+/*the time styles*/
+.parent h1{
+    font-weight: 900;
+    font-size: 60px;
+}
